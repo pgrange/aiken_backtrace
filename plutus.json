@@ -1,0 +1,38 @@
+{
+  "preamble": {
+    "title": "pgrange/backtrace",
+    "description": "Aiken contracts for project 'pgrange/backtrace'",
+    "version": "0.0.0",
+    "plutusVersion": "v2",
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "backtrace.backtrace",
+      "datum": {
+        "title": "Unit",
+        "description": "The nullary constructor.",
+        "anyOf": [
+          {
+            "dataType": "constructor",
+            "index": 0,
+            "fields": []
+          }
+        ]
+      },
+      "redeemer": {
+        "title": "Unit",
+        "description": "The nullary constructor.",
+        "anyOf": [
+          {
+            "dataType": "constructor",
+            "index": 0,
+            "fields": []
+          }
+        ]
+      },
+      "compiledCode": "590112010000323232323232323232323222253330063232324a264646464640026026002600a64a66601866e1d2000300f375400220022a6601c9212a4173736572746564206f6e20696e636f727265637420636f6e7374727563746f722076617269616e742e001633002375866008600a66008600a0029000240084944014c0040048894ccc0400084cdd2a400497ae013232533300d300300213374a90001980980125eb804ccc01401400400cc05000cc04800888c8ccc0040052000003222333300c3370e008004026466600800866e0000d200230150010012300b37540022930b180080091129998048010a4c26600a600260160046660060066018004002ae695cdab9c5573aaae7955cfaba05742ae89",
+      "hash": "7f079848179af5c79a33ed79d9d528eebbac8860bab708617cc2c077"
+    }
+  ]
+}
